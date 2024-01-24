@@ -1,4 +1,5 @@
 # AWS CDK Simple Image Resizer
+![img-resizer drawio2](https://github.com/focusOtter/aws-cdk-simple-img-resizer/assets/5106417/860181e9-ac7c-4cf3-a74d-f08cf6dbf213)
 
 ## Overview
 
@@ -47,6 +48,9 @@ To deploy the AWS CDK Simple Image Resizer application:
 ## Usage
 
 After deployment, upload an image to the first S3 bucket. The Lambda function will automatically resize the image and place the resized version in the second S3 bucket.
+When testing in the AWS Lambda console, you should receive a presigned URL:
+<img width="1891" alt="image" src="https://github.com/focusOtter/aws-cdk-simple-img-resizer/assets/5106417/6d1c029a-2e31-4ac6-a3c7-03c5db7acbac">
+
 
 ## Contributing
 
